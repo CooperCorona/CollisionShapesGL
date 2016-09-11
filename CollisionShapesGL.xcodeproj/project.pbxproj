@@ -7,13 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC154EA01D8245DB00880087 /* CollisionShapesGL.h in Headers */ = {isa = PBXBuildFile; fileRef = DC154E9F1D8245DB00880087 /* CollisionShapesGL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC154EBB1D82464C00880087 /* CollisionShapes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC154EB01D8245F100880087 /* CollisionShapes.framework */; };
+		DC154EBC1D82464C00880087 /* CoronaGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC154EBA1D82464200880087 /* CoronaGL.framework */; };
+		DC154EBF1D8246F500880087 /* Transform+GL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC154EBE1D8246F500880087 /* Transform+GL.swift */; };
+		DC4577341D850EC500711D86 /* CollisionShape+RandomPointProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4577331D850EC500711D86 /* CollisionShape+RandomPointProtocol.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC154EAF1D8245F100880087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC154EA71D8245F100880087 /* CollisionShapes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC8113901BB7487A00887A5C;
+			remoteInfo = CollisionShapes;
+		};
+		DC154EB11D8245F100880087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC154EA71D8245F100880087 /* CollisionShapes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC81139A1BB7487A00887A5C;
+			remoteInfo = CollisionShapesTests;
+		};
+		DC154EB91D82464200880087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC154EB31D82464200880087 /* CoronaGL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC5CDC891D80B30F008C2A8D;
+			remoteInfo = CoronaGL;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DC154E9C1D8245DB00880087 /* CollisionShapesGL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CollisionShapesGL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC154E9F1D8245DB00880087 /* CollisionShapesGL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollisionShapesGL.h; sourceTree = "<group>"; };
 		DC154EA11D8245DB00880087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC154EA71D8245F100880087 /* CollisionShapes.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CollisionShapes.xcodeproj; path = ../../CollisionShapes/CollisionShapes.xcodeproj; sourceTree = "<group>"; };
+		DC154EB31D82464200880087 /* CoronaGL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CoronaGL.xcodeproj; path = ../CoronaGL/CoronaGL.xcodeproj; sourceTree = "<group>"; };
+		DC154EBD1D8246B500880087 /* CollisionShape+GL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollisionShape+GL.swift"; sourceTree = "<group>"; };
+		DC154EBE1D8246F500880087 /* Transform+GL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Transform+GL.swift"; sourceTree = "<group>"; };
+		DC4577331D850EC500711D86 /* CollisionShape+RandomPointProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CollisionShape+RandomPointProtocol.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC154EBB1D82464C00880087 /* CollisionShapes.framework in Frameworks */,
+				DC154EBC1D82464C00880087 /* CoronaGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,6 +63,8 @@
 		DC154E921D8245DB00880087 = {
 			isa = PBXGroup;
 			children = (
+				DC154EA71D8245F100880087 /* CollisionShapes.xcodeproj */,
+				DC154EB31D82464200880087 /* CoronaGL.xcodeproj */,
 				DC154E9E1D8245DB00880087 /* CollisionShapesGL */,
 				DC154E9D1D8245DB00880087 /* Products */,
 			);
@@ -46,10 +81,29 @@
 		DC154E9E1D8245DB00880087 /* CollisionShapesGL */ = {
 			isa = PBXGroup;
 			children = (
-				DC154E9F1D8245DB00880087 /* CollisionShapesGL.h */,
+				DC154EBD1D8246B500880087 /* CollisionShape+GL.swift */,
+				DC4577331D850EC500711D86 /* CollisionShape+RandomPointProtocol.swift */,
+				DC154EBE1D8246F500880087 /* Transform+GL.swift */,
 				DC154EA11D8245DB00880087 /* Info.plist */,
 			);
 			path = CollisionShapesGL;
+			sourceTree = "<group>";
+		};
+		DC154EA81D8245F100880087 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC154EB01D8245F100880087 /* CollisionShapes.framework */,
+				DC154EB21D8245F100880087 /* CollisionShapesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC154EB41D82464200880087 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC154EBA1D82464200880087 /* CoronaGL.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +113,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC154EA01D8245DB00880087 /* CollisionShapesGL.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,12 +161,46 @@
 			mainGroup = DC154E921D8245DB00880087;
 			productRefGroup = DC154E9D1D8245DB00880087 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DC154EA81D8245F100880087 /* Products */;
+					ProjectRef = DC154EA71D8245F100880087 /* CollisionShapes.xcodeproj */;
+				},
+				{
+					ProductGroup = DC154EB41D82464200880087 /* Products */;
+					ProjectRef = DC154EB31D82464200880087 /* CoronaGL.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				DC154E9B1D8245DB00880087 /* CollisionShapesGL */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DC154EB01D8245F100880087 /* CollisionShapes.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CollisionShapes.framework;
+			remoteRef = DC154EAF1D8245F100880087 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC154EB21D8245F100880087 /* CollisionShapesTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CollisionShapesTests.xctest;
+			remoteRef = DC154EB11D8245F100880087 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC154EBA1D82464200880087 /* CoronaGL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CoronaGL.framework;
+			remoteRef = DC154EB91D82464200880087 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DC154E9A1D8245DB00880087 /* Resources */ = {
@@ -130,6 +217,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC4577341D850EC500711D86 /* CollisionShape+RandomPointProtocol.swift in Sources */,
+				DC154EBF1D8246F500880087 /* Transform+GL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,32 +319,41 @@
 		DC154EA51D8245DB00880087 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = CollisionShapesGL/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Corona-Corporation.CollisionShapesGL";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
 			};
 			name = Debug;
 		};
 		DC154EA61D8245DB00880087 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = CollisionShapesGL/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Corona-Corporation.CollisionShapesGL";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
 			};
 			name = Release;
 		};
@@ -278,6 +376,7 @@
 				DC154EA61D8245DB00880087 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
