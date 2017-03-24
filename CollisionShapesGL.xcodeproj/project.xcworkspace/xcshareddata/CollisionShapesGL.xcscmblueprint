@@ -1,0 +1,51 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3936AFC017DA5890501BE840C3A7F9F000EF92D7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8F9D2AD734303863F151C37D7BB0E5A7EA91ED7A" : 0,
+    "3936AFC017DA5890501BE840C3A7F9F000EF92D7" : 9223372036854775807,
+    "4A90A722C0D5BCE93BAF9E2494386311BDFB5DB8" : 0,
+    "34F7D422FB3054CFBD6E34FD29953606CFFC95C8" : 0,
+    "A760111D90904809446FCCAA6A56FCFF07F6888E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "22E4A652-ACBF-469B-846E-306159C8FEAB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8F9D2AD734303863F151C37D7BB0E5A7EA91ED7A" : "CoronaGL\/",
+    "3936AFC017DA5890501BE840C3A7F9F000EF92D7" : "CollisionShapesGL\/",
+    "4A90A722C0D5BCE93BAF9E2494386311BDFB5DB8" : "CoronaStructures\/",
+    "34F7D422FB3054CFBD6E34FD29953606CFFC95C8" : "CoronaConvenience\/",
+    "A760111D90904809446FCCAA6A56FCFF07F6888E" : "..\/CollisionShapes"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CollisionShapesGL",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CollisionShapesGL.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CooperCorona\/CoronaConvenience.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "34F7D422FB3054CFBD6E34FD29953606CFFC95C8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CooperCorona\/CollisionShapesGL.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3936AFC017DA5890501BE840C3A7F9F000EF92D7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CooperCorona\/CoronaStructures.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4A90A722C0D5BCE93BAF9E2494386311BDFB5DB8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CooperCorona\/CoronaGL.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8F9D2AD734303863F151C37D7BB0E5A7EA91ED7A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CooperCorona\/Collision-Shapes.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A760111D90904809446FCCAA6A56FCFF07F6888E"
+    }
+  ]
+}
