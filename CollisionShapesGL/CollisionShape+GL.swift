@@ -6,7 +6,13 @@
 //  Copyright © 2016 Cooper Knaak. All rights reserved.
 //
 
-import CollisionShape
+#if os(iOS)
+import UIKit
+#else
+import Cocoa
+#endif
+import CoronaConvenience
+import CollisionShapes
 import CoronaGL
 
 extension CollisionShape {
@@ -28,8 +34,12 @@ extension CollisionShape {
             }
             var v1 = UVertex()
             var v2 = UVertex()
-            v1.position ??= self.points.last?.getGLTuple()
-            v2.position ??= self.points.first?.getGLTuple()
+            if let v1pos = self.points.last?.getGLTuple() {
+                v1.position = v1pos
+            }
+            if let v2pos = self.points.first?.getGLTuple() {
+                v2.position = v2pos
+            }
             vertices += [centerVertex, v1, v2]
             sprite.vertices = vertices
         }

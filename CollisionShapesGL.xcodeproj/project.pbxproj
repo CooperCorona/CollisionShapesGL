@@ -7,27 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC154EBB1D82464C00880087 /* CollisionShapes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC154EB01D8245F100880087 /* CollisionShapes.framework */; };
 		DC154EBC1D82464C00880087 /* CoronaGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC154EBA1D82464200880087 /* CoronaGL.framework */; };
 		DC154EBF1D8246F500880087 /* Transform+GL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC154EBE1D8246F500880087 /* Transform+GL.swift */; };
+		DC3735111EBB8B3A00302E64 /* CollisionShapes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC37350E1EBB8B3100302E64 /* CollisionShapes.framework */; };
 		DC4577341D850EC500711D86 /* CollisionShape+RandomPointProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4577331D850EC500711D86 /* CollisionShape+RandomPointProtocol.swift */; };
+		DC7C81E41EBB8CBD008F5A50 /* CollisionShape+GL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC154EBD1D8246B500880087 /* CollisionShape+GL.swift */; };
+		DC7C81FB1EBB8D46008F5A50 /* CoronaConvenience.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7C81F91EBB8D34008F5A50 /* CoronaConvenience.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DC154EAF1D8245F100880087 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DC154EA71D8245F100880087 /* CollisionShapes.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DC8113901BB7487A00887A5C;
-			remoteInfo = CollisionShapes;
-		};
-		DC154EB11D8245F100880087 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DC154EA71D8245F100880087 /* CollisionShapes.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DC81139A1BB7487A00887A5C;
-			remoteInfo = CollisionShapesTests;
-		};
 		DC154EB91D82464200880087 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DC154EB31D82464200880087 /* CoronaGL.xcodeproj */;
@@ -35,16 +23,39 @@
 			remoteGlobalIDString = DC5CDC891D80B30F008C2A8D;
 			remoteInfo = CoronaGL;
 		};
+		DC37350D1EBB8B3100302E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC3735081EBB8B3100302E64 /* CollisionShapes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC8113901BB7487A00887A5C;
+			remoteInfo = CollisionShapes;
+		};
+		DC37350F1EBB8B3100302E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC3735081EBB8B3100302E64 /* CollisionShapes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC81139A1BB7487A00887A5C;
+			remoteInfo = CollisionShapesTests;
+		};
+		DC7C81F81EBB8D34008F5A50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC7C81F21EBB8D34008F5A50 /* CoronaConvenience.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC4D07951D7D233A00862432;
+			remoteInfo = CoronaConvenience;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DC154E9C1D8245DB00880087 /* CollisionShapesGL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CollisionShapesGL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC154EA11D8245DB00880087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC154EA71D8245F100880087 /* CollisionShapes.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CollisionShapes.xcodeproj; path = ../../CollisionShapes/CollisionShapes.xcodeproj; sourceTree = "<group>"; };
 		DC154EB31D82464200880087 /* CoronaGL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CoronaGL.xcodeproj; path = ../CoronaGL/CoronaGL.xcodeproj; sourceTree = "<group>"; };
 		DC154EBD1D8246B500880087 /* CollisionShape+GL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollisionShape+GL.swift"; sourceTree = "<group>"; };
 		DC154EBE1D8246F500880087 /* Transform+GL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Transform+GL.swift"; sourceTree = "<group>"; };
+		DC3735081EBB8B3100302E64 /* CollisionShapes.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CollisionShapes.xcodeproj; path = ../CollisionShapes/CollisionShapes.xcodeproj; sourceTree = "<group>"; };
 		DC4577331D850EC500711D86 /* CollisionShape+RandomPointProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CollisionShape+RandomPointProtocol.swift"; sourceTree = "<group>"; };
+		DC7C81E91EBB8D12008F5A50 /* CoronaConvenience.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoronaConvenience.framework; path = "../../../Library/Developer/Xcode/DerivedData/GLSandbox-doapbdbxksatqgbexltncbdosmjq/Build/Products/Debug/CoronaConvenience.framework"; sourceTree = "<group>"; };
+		DC7C81F21EBB8D34008F5A50 /* CoronaConvenience.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CoronaConvenience.xcodeproj; path = ../CoronaConvenience/CoronaConvenience.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC154EBB1D82464C00880087 /* CollisionShapes.framework in Frameworks */,
+				DC7C81FB1EBB8D46008F5A50 /* CoronaConvenience.framework in Frameworks */,
+				DC3735111EBB8B3A00302E64 /* CollisionShapes.framework in Frameworks */,
 				DC154EBC1D82464C00880087 /* CoronaGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,10 +75,12 @@
 		DC154E921D8245DB00880087 = {
 			isa = PBXGroup;
 			children = (
-				DC154EA71D8245F100880087 /* CollisionShapes.xcodeproj */,
+				DC7C81F21EBB8D34008F5A50 /* CoronaConvenience.xcodeproj */,
+				DC3735081EBB8B3100302E64 /* CollisionShapes.xcodeproj */,
 				DC154EB31D82464200880087 /* CoronaGL.xcodeproj */,
 				DC154E9E1D8245DB00880087 /* CollisionShapesGL */,
 				DC154E9D1D8245DB00880087 /* Products */,
+				DC7C81E81EBB8D12008F5A50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,19 +103,35 @@
 			path = CollisionShapesGL;
 			sourceTree = "<group>";
 		};
-		DC154EA81D8245F100880087 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DC154EB01D8245F100880087 /* CollisionShapes.framework */,
-				DC154EB21D8245F100880087 /* CollisionShapesTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		DC154EB41D82464200880087 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				DC154EBA1D82464200880087 /* CoronaGL.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC3735091EBB8B3100302E64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC37350E1EBB8B3100302E64 /* CollisionShapes.framework */,
+				DC3735101EBB8B3100302E64 /* CollisionShapesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC7C81E81EBB8D12008F5A50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC7C81E91EBB8D12008F5A50 /* CoronaConvenience.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC7C81F31EBB8D34008F5A50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC7C81F91EBB8D34008F5A50 /* CoronaConvenience.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -164,8 +194,12 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = DC154EA81D8245F100880087 /* Products */;
-					ProjectRef = DC154EA71D8245F100880087 /* CollisionShapes.xcodeproj */;
+					ProductGroup = DC3735091EBB8B3100302E64 /* Products */;
+					ProjectRef = DC3735081EBB8B3100302E64 /* CollisionShapes.xcodeproj */;
+				},
+				{
+					ProductGroup = DC7C81F31EBB8D34008F5A50 /* Products */;
+					ProjectRef = DC7C81F21EBB8D34008F5A50 /* CoronaConvenience.xcodeproj */;
 				},
 				{
 					ProductGroup = DC154EB41D82464200880087 /* Products */;
@@ -180,25 +214,32 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		DC154EB01D8245F100880087 /* CollisionShapes.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CollisionShapes.framework;
-			remoteRef = DC154EAF1D8245F100880087 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		DC154EB21D8245F100880087 /* CollisionShapesTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CollisionShapesTests.xctest;
-			remoteRef = DC154EB11D8245F100880087 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		DC154EBA1D82464200880087 /* CoronaGL.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = CoronaGL.framework;
 			remoteRef = DC154EB91D82464200880087 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC37350E1EBB8B3100302E64 /* CollisionShapes.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CollisionShapes.framework;
+			remoteRef = DC37350D1EBB8B3100302E64 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC3735101EBB8B3100302E64 /* CollisionShapesTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CollisionShapesTests.xctest;
+			remoteRef = DC37350F1EBB8B3100302E64 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC7C81F91EBB8D34008F5A50 /* CoronaConvenience.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CoronaConvenience.framework;
+			remoteRef = DC7C81F81EBB8D34008F5A50 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -218,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC7C81E41EBB8CBD008F5A50 /* CollisionShape+GL.swift in Sources */,
 				DC4577341D850EC500711D86 /* CollisionShape+RandomPointProtocol.swift in Sources */,
 				DC154EBF1D8246F500880087 /* Transform+GL.swift in Sources */,
 			);
